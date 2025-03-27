@@ -5,19 +5,19 @@ const ImageHoverEffectPage = () => {
   return (
     <div className="flex items-center justify-center h-full">
       <div className={styles.imageContainer}>
-        <Image src="/sports_man_1.png" height={200} width={200} alt="" />
+        <Image src="/sports_man_1.png" fill sizes="auto" alt="" />
         <div className={styles.message}>this is the first a</div>
       </div>
       <div className={styles.imageContainer}>
-        <Image src="/sports_man_2.png" height={200} width={200} alt="" />
+        <Image src="/sports_man_2.png" fill sizes="auto" alt="" />
         <div className={styles.message}>bbb</div>
       </div>
       <div className={styles.imageContainer}>
-        <Image src="/sports_man_3.png" height={200} width={200} alt="" />
+        <Image src="/sports_man_3.png" fill sizes="auto" alt="" />
         <div className={styles.message}>ccc</div>
       </div>
       <div className={styles.imageContainer}>
-        <Image src="/sports_woman_1.png" height={200} width={200} alt="" />
+        <Image src="/sports_woman_1.png" fill sizes="auto" alt="" />
         <div className={styles.message}>ddd</div>
       </div>
     </div>

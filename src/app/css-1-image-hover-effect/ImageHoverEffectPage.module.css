@@ -5,6 +5,7 @@
     transition: transform 0.3s ease, color 0.3s ease;
     overflow: hidden;
     height: 200px;
+    width: 200px;
   }
 
   .imageContainer img {
@@ -31,6 +32,7 @@
       rgba(139, 0, 0, 0.8) 0%,
       rgba(0, 0, 0, 0.9) 100%
     );
+    z-index: 20;
   }
 
   .imageContainer:hover::before {
@@ -49,6 +51,7 @@
     font-size: 12px;
     color: white;
     opacity: 0;
+    z-index: 30;
   }
 
   .imageContainer:hover .message {
