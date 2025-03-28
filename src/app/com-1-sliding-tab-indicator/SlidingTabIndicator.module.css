@@ -1,0 +1,26 @@
+.tabList {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 20px;
+  color: white;
+  background-color: #366dc0;
+  padding: 2px 8px;
+  border-radius: 10px;
+}
+
+.tabList .tab {
+  padding: 10px 15px;
+  cursor: pointer;
+  z-index: 20;
+}
+
+.tabList .aaa {
+  background-color: rgb(59, 146, 25);
+  position: absolute;
+  height: 40px;
+  border-radius: 10px;
+  z-index: 10;
+  transition: left 0.3s ease-in-out;
+}
